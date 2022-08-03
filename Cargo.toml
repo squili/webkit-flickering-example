@@ -1,0 +1,10 @@
+[package]
+name = "scratch"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.59"
+glib = "0.15.12"
+gtk = "0.15.5"
+webkit2gtk = { version = "0.18.0", features = ["v2_22"] }
